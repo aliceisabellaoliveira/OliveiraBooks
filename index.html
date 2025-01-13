@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/books-64.ico" />
+</head>
+<link rel="stylesheet" href="styles.css">
+<title>OliveiraBooks</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livros</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">eBooks</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infantil</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Estudo</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+            <!--<img src="img/Logo.svg" alt="Logo da OliveiraBooks" class="container__imagem">-->
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Oliveira</b>Books</h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livros</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">eBooks</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infantil</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Estudo</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagen-transparente"></a>
+            <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="/login.html"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <!-- Additional required wrapper -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/para sempre.png"
+                            alt="Capa do livro para sempre interrompidos"></div>
+                    <div class="swiper-slide"><img src="img/outlander.jpg" alt="Capa do livro outlander"></div>
+                    <div class="swiper-slide"><img src="img/malibu renasce.png" alt="Capa do livro malibu renasce ">
+                    </div>
+                    <div class="swiper-slide"><img src="img/amores.png" alt="Capa do livro amores verdadeiros"></div>
+                    <div class="swiper-slide"><img src="img/davinci.jpg" alt="Capa do livro o código davinci"></div>
+
+
+
+                </div>
+                <!-- If we need navigation buttons -->
+
+            </div>
+
+            <div class="card">
+                <!-- Line 1 -->
+                <div class="card__descricao">
+                    <!-- Column 1 -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Beren and Luthien</h2>
+                        <p class="descricao__texto">Cuidadosamente restaurado a partir dos manuscritos de Tolkien e
+                            apresentado pela primeira vez como uma história contínua e autônoma na Terra-média de
+                            Tolkien.
+                        </p>
+                    </div>
+                    <!-- Column 2 -->
+                    <img class="descricao__img" src="img/beren.png" alt="Imagem do livro beren and luthien">
+                </div>
+
+                <div class="card__botoes">
+                    <!-- Line 2 -->
+                    <ul class="botoes">
+                        <!-- Column 1 -->
+                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras">
+                        </li>
+                    </ul>
+                    <!-- Column 2 -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <!-- Additional required wrapper -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/amores.png" alt="Capa do livro amores verdadeiros"></div>
+                    <div class="swiper-slide"><img src="img/davinci.jpg" alt="Capa do livro o código davinci"></div>
+                    <div class="swiper-slide"><img src="img/daisy jones.png" alt="Capa do livro daisy jones & the six">
+                    </div>
+                    <div class="swiper-slide"><img src="img/para sempre.png"
+                            alt="Capa do livro para sempre interrompidos"></div>
+                    <div class="swiper-slide"><img src="img/malibu renasce.png" alt="Capa do livro malibu renasce ">
+                    </div>
+                    <div class="swiper-slide"><img src="img/outlander.jpg" alt="Capa do livro outlander"></div>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <!-- Line 1 -->
+                <div class="card__descricao">
+                    <!-- Column 1 -->
+                    <div class="descricao">
+                        <img src="img/Estrelinhas.png" alt="Avaliação 5 estrelas">
+                        <h3 class="descricao__titulo">Autora do Mês</h3>
+                        <h2 class="descricao__titulo-livro">Taylor Jenkins Reid</h2>
+                        <p class="descricao__texto">Escritora norte-americana. É conhecida por seus livros Os Sete
+                            Maridos de Evelyn Hugo, Daisy Jones & The Six e Malibu Renasce.</p>
+                    </div>
+                    <!-- Column 2 -->
+                    <img class="descricao__img" src="img/Perfil-escritora 1.png" alt="Imagem da Escritora">
+                </div>
+
+                <div class="card__botoes">
+                    <!-- Line 2 -->
+                    <ul class="botoes">
+                        <!-- Column 1 -->
+                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras">
+                        </li>
+                    </ul>
+                    <!-- Column 2 -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Romance</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Ficção Científica</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Aventura</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Drama</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Suspence</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Administração</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Infatil</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Psicologia</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo Oliveira</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">SOBRE A OliveiraBooks</li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Quem somos</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Eventos</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Trabalhe conosco</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Localização de lojas</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Vale-presente</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Recuperação Judicial</a>
+            </li>
+
+        </ul>
+
+        <ul class="lista-admn">
+            <li class="lista-rodape__titulo">ATENDIMENTO AO CLIENTE;</li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Entre em contato</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Política de Privacidade</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Política de entrega e devolução</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Política de vendas</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Perguntas e respostas</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Atendimento</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">SERVIÇOS</li>
+
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Oliveira Pass</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Sebo Oliveira</a>
+            </li>
+            <li class="lista-rodape__item">
+                <a href="#" class="lista-rodape__link">Oliveira Marketplace</a>
+            </li>
+            <li class="lista-rodape__item">
+
+                <a href="#" class="lista-rodape__link">Teatro Oliveira</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>

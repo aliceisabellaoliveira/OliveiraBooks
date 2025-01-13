@@ -1,2 +1,2 @@
 # OliveiraBooks
-Projeto da faculdade.
+Projeto da faculdade demonstrando conceitos de HTML, CSS e JavaScript.
